@@ -7,5 +7,9 @@ export const InputComponent = styled.input`
   border: none;
   border-bottom: 2px solid #3a7d87;
   width: 100%;
-  font-size: 18px;
+  font-size: 16px;
+`;
+
+export const AuthInput = styled(InputComponent)`
+  padding: 5px 20px;
 `;

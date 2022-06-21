@@ -11,5 +11,9 @@ export const Wrapper = styled.div`
 export const ChatBody = styled.div`
   width: 100%;
   height: 85vh;
-  padding: 15px 0;
+  padding: 15px;
+  border: 2px solid #3a7d87;
+  border-top: none;
+  border-radius: 10px;
+  overflow-y: auto;
 `;

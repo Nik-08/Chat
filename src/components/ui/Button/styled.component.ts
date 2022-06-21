@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const ButtonStyle = styled.button`
+type Props = {
+  buttonColor: string;
+};
+
+export const ButtonStyle = styled.button<Props>`
   display: block;
   padding: 7px 15px;
   border-radius: 10px;
@@ -8,7 +12,7 @@ export const ButtonStyle = styled.button`
   cursor: pointer;
   border: none;
   outline: none;
-  background: rgb(242, 137, 46);
+  background: ${(props) => props.buttonColor};
   transition: 0.3s;
   color: #fff;
   &:hover {

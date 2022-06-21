@@ -9,7 +9,7 @@ export const Header = () => {
         <HeaderUser>
           <HeaderUserName>UserName</HeaderUserName>
         </HeaderUser>
-        <Button />
+        <Button buttonColor='#ff4747' />
       </HeaderContainer>
     </ChatHeader>
   );
