@@ -20,4 +20,10 @@ code {
 
 .chat__body {
   color: rgb(217, 119, 34);
+  color: #6fe2ec #3a7d87 #ffffff;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
 }

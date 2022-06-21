@@ -1,5 +1,7 @@
 import React from "react";
 
+import { InputComponent } from "./styled.component";
+
 export const Input = () => {
-  return <div>Input</div>;
+  return <InputComponent />;
 };
