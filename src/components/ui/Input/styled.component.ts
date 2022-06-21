@@ -11,5 +11,5 @@ export const InputComponent = styled.input`
 `;
 
 export const AuthInput = styled(InputComponent)`
-  padding: 5px 20px;
+  padding: 7px 0px;
 `;

@@ -18,11 +18,21 @@ export const Login = () => {
         <AuthTitle>LogIn</AuthTitle>
         <AuthItem>
           <AuthLabel htmlFor='loginEmail'>Email</AuthLabel>
-          <AuthInput id='loginEmail' />
+          <AuthInput
+            id='loginEmail'
+            placeholder={"Email"}
+            name={"email"}
+            type={"email"}
+          />
         </AuthItem>
         <AuthItem>
           <AuthLabel htmlFor='loginPassword'>Password</AuthLabel>
-          <AuthInput id='loginPassword' />
+          <AuthInput
+            id='loginPassword'
+            placeholder={"Password"}
+            name={"password"}
+            type={"password"}
+          />
         </AuthItem>
         <Button buttonColor={"rgb(242, 137, 46)"} />
       </AuthBody>

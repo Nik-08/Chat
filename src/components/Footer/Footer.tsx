@@ -3,7 +3,7 @@ import { ChatFooter } from "./styled.component";
 export const Footer = () => {
   return (
     <ChatFooter>
-      <Input />
+      <Input placeholder={"Text"} name={"text"} type={"text"} />
     </ChatFooter>
   );
 };

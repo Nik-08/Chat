@@ -36,4 +36,7 @@ export const AuthItem = styled.div`
   width: 100%;
   padding: 10px;
 `;
-export const AuthLabel = styled.label``;
+export const AuthLabel = styled.label`
+  display: block;
+  margin-bottom: 5px;
+`;
